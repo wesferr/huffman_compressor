@@ -1,4 +1,9 @@
 # -*- coding: utf-8 -*-
+
+# Developed by : Wesley Ferreira de Ferreira
+# Computer Science student on Universidade Federal do Pampa(UNIPAMPA) - RS, Brazil
+# Contact: wferreira531@gmail.com
+
 import struct
 import binascii
 from sys import *
@@ -115,8 +120,8 @@ def main():
 			print("-c: compress the file")
 			print("-d: decompress the file")
 			print("Error codes:")
-			print("Error 1: problema na leitura do arquivo a ser comprimido")
-			print("Error 2: problema na leitura do arquivo a ser descomprimido\n")
+			print("Error 1: Could not open file {} to compress")
+			print("Error 2: Could not open file {} to decompress\n")
 		if(argv[1] == "-c"):
 			compress(argv[2])
 		if(argv[1] == "-d"):
