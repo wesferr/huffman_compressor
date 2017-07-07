@@ -120,8 +120,8 @@ def main():
 			print("-c: compress the file")
 			print("-d: decompress the file")
 			print("Error codes:")
-			print("Error 1: Could not open file {} to compress")
-			print("Error 2: Could not open file {} to decompress\n")
+			print("Error 1: Could not open file to compress")
+			print("Error 2: Could not open file to decompress\n")
 		if(argv[1] == "-c"):
 			compress(argv[2])
 		if(argv[1] == "-d"):
