@@ -1,4 +1,4 @@
-Devoloped on File and Data Organization Class
+Devoloped on File and Data Organization Class   
 How to use:	python huffman.py options file
 
 1. Options:
